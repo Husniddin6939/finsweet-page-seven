@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #232536;
+    border-bottom: 1px solid silver;
+  }
+  
+  nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+  }
+  
+  .logo {
+    width: auto;
+  }
+  
+  nav .list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 712px;
+  }
+  .list-item {
+    color: #fff ;
+  }
+  .list-item6{
+    color: #FFD3AF !important ;
+  }
+  
+  nav .list .list-item a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+  }
+  
+  nav .list .list-item a:hover {
+    color: #fff;
+  }
+  
+  .active-link {
+    color: #fff !important;
+  }
+
+  #intro .container{
+    width: 1280px;
+    margin: 96px 315px;
+  }
+
+
+  #intro .wrapper{
+    width: 1280px;
+    height: 324px;
+   
+
+  }
+
+  #intro .wrapper .border{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #intro .wrapper h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin: 24px 0;
+  }
+
+  #intro .wrapper p{
+    margin-bottom: 32px;
+  }
+
+  #intro2 .container{
+    width: 1280px;
+    height: 1630px;
+  }
+
+   #intro2 .wrapper{
+    width: 844px;
+    height: 1148px;
+    margin-top: 96px;
+    margin-left: 217px;
+    
+   }
+
+   #intro2 .wrapper h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
+   }
+
+   #intro2 .wrapper p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+   }
+
+   #intro2 h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 24px;
+   }
+
+
+  #intro3  .container1{
+    width: 1280px;
+    height: 334px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #666DFF;
+    margin-top: 100px;
+    margin-left: 324px;
+  }
+  
+  
+  #intro3 .wrapper1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 151px;
+  }
+  
+  #intro3 .wrapper_left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    color: #FFFFFF;
+    padding-left:30px;
+    padding-right: 50px;
+    padding-bottom: 96px;
+    }
+  
+  #intro3 .wrapper_right1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 120px 96px;
+  }
+  
+  #intro3 button{
+    border: none;
+    background:#FFFFFF;
+    width: 450px;
+    height: 60px;
+    color: #A7A8AF;
+  }
+  
+  #intro3 h1{
+    padding-top: 10px;
+    width: 280px;
+    height: 108px;
+  }
+  
+  
+  #intro4 .container{
+    margin: 30px 122px;
+    /* background-color: red; */
+    width: 1280px;
+    height: 560px;
+    margin-top: 96px;
+    margin-left: 324px;
+    position: relative;
+  
+  }
+  #intro4 .wrapper{
+   display: flex;
+   /* background-color: black; */
+   width: 1278px;
+   height: 416px;
+   gap: 204px;
+   align-items: center;
+  }
+  
+  
+  #intro4 .wrapper_left{
+    /* background-color: rgb(35, 178, 16); */
+    color: black;
+    width: 452px;
+    height: 416px;
+    
+  }
+
+  #intro4 .wrapper_left h1{
+    padding-top: 32px;
+    padding-bottom: 40px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  #intro4 .wrapper_left h6{
+    padding-bottom: 28px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  #intro4 .wrapper_left p{
+    padding-bottom: 30px;
+  }
+
+
+  #intro4 .wrapper_right{
+    display: flex;
+    row-gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    
+    
+  }
+  
+  #intro4 .wrapper_right ul{
+    text-decoration: none;
+    list-style-type: none;
+    /* background-color: red; */
+    width: 120px;
+    height: 188px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+  }
+  
+  #intro4 a{
+   text-decoration: none;
+   list-style-type: none;
+   color: #232536; 
+   
+  }
+  
+  #intro4 h1
+  
+  
+  #intro4 .container .pas{
+    position: absolute;
+    
+    
+    
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFE6D2;
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+  }
+  
+  .left{
+    display: flex;
+    column-gap: 100px;
+    
+  }
